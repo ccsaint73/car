@@ -1,0 +1,12 @@
+.select {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F0F0F0;
+  position: relative;
+}
+
+.soso-Top{
+  width: 100%;
+  height: 532rpx;
+  background: #FFF;
+}

@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+pages {
+  position: relative;
+  z-index: 9999998;
+  background: #fff;
+}
+.arrow {
+  border-top: 3rpx solid #999;
+  border-right: 3rpx solid #999;
+  margin: 2rpx 0 0 0;
+  -webkit-transform: rotate(45deg);
+  width: 16rpx;
+  height: 16rpx;
+  float: right;
+}
+button::after {
+  border: 0!important;
+}

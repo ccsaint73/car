@@ -1,0 +1,4 @@
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<view class='home-page' style='margin-top: {{barHeight}}px;height: {{winHeight}}px;'>
+  
+</view>

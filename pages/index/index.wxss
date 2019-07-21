@@ -1,0 +1,6 @@
+/**index.wxss**/
+.home-page {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}

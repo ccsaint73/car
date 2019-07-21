@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/select/select"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取您的地理位置，请确认授权，否则小程序将无法使用"
+    }
+  },
+  "tabBar": {
+    "color": "#545454",
+    "selectedColor": "#545454",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "text": "关注",
+        "iconPath": "images/follow.png",
+        "selectedIconPath": "images/follow-active.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "选车",
+        "iconPath": "images/select.png",
+        "selectedIconPath": "images/select-active.png",
+        "pagePath": "pages/select/select"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
